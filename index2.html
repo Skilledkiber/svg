@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+        <polyline points="0,0 0,200 300,200 300,0 0,0" fill="transparent" stroke="#cccccc" stroke-width="2"
+            stroke-dasharray="5 2"></polyline>
+        <rect x="5" y="5" width="290" height="190" fill="url(#bg)"></rect>
+        <defs>
+            <linearGradient id="bg" spreadMethod="repeat" x1="8%" x2="18%">
+                <stop offset="50%" stop-color="#7dc4e8"></stop>
+                <stop offset="50%" stop-color="#b1dcf1"></stop>
+            </linearGradient>
+        </defs>
+        <defs>
+            <pattern id="dots" patternUnits="userSpaceOnUse" width="10" height="10">
+                <circle cx="5" cy="5" r="2" fill="#fff"></circle>
+            </pattern>
+        </defs>
+        <text x="38" y="73" font-size="45px" fill-opacity="0.6" font-family="Lobster">the Breaking</text>
+        <text x="35" y="70" font-size="45px" fill="#f4b400" font-family="Lobster" stroke="#fff">the Breaking</text>
+        <text x="68" y="153" font-family="Lobster" fill-opacity="0.6" font-size="80" textLength="150px" lengthAdjust="spacingAndGlyphs">Bad</text>
+        <text x="65" y="150" font-family="Lobster" fill="#ff401a" font-size="80" stroke="#fff" textLength="150px" lengthAdjust="spacingAndGlyphs">Bad</text>
+        <text x="65" y="150" font-family="Lobster" fill="url(#dots)" font-size="80" stroke="#fff" textLength="150px" lengthAdjust="spacingAndGlyphs">Bad</text>
+    </svg>
+</body>
+
+</html>
